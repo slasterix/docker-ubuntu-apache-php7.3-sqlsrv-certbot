@@ -1,4 +1,4 @@
-FROM slasterix/docker-ubuntu-apache-php7.3-sqlsrv
+FROM docker-ubuntu-apache-php7.3-sqlsrv-driver
 ARG DEBIAN_FRONTEND=noninteractive
 RUN \
     apt-get update && \
