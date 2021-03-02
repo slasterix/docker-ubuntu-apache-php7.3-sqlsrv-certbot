@@ -13,5 +13,4 @@ RUN service cron start
 RUN groupadd -g 1000 www
 RUN useradd -u 1000 -g www www \
     && chown -R www:www /var/www/html
-RUN usermod -a -G www-data www    
-USER www
+RUN usermod -a -G www-data www
